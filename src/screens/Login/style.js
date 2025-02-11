@@ -12,23 +12,12 @@ export const styles = {
   },
 
   container__input:{
-    paddingHorizontal:5,
     marginTop: 5,
     height: 40,
     fontSize:FONT_SIZE.md,
     
   },
 
- 
-footer__login:{
-  alignItems: "center",
-},
-
-
-  sign__up__login: {
-    color: '#3d3d6b',
-    fontWeight: 'bold',
-},
 
 
 

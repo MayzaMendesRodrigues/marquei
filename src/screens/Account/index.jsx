@@ -1,7 +1,6 @@
 import { Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 import { styles } from "./style";
 import Button from "../../components/Button";
-import Logo from "../../../assets/logo.webp";
 import { useState } from "react";
 import api from "../../constants/api";
 import { Alert } from "react-native";
@@ -35,7 +34,11 @@ export default function Account({ navigation }) {
 
   return (
       <View style={styles.container}>
+
+        < View style={styles.container__title}>
         <Text style={styles.title}>Get Started</Text>
+        </View>
+
       <View style={styles.container__input}>
       <Input 
         keyboardType="name"
@@ -73,13 +76,13 @@ export default function Account({ navigation }) {
 
           <View style={styles.socialIcons}>
             <TouchableOpacity>
-              <Text> text </Text>
+              <Text> icon </Text>
             </TouchableOpacity>
             <TouchableOpacity>
-              <Text> text </Text>
+              <Text> icon </Text>
             </TouchableOpacity>
             <TouchableOpacity>
-              <Text> text </Text>
+              <Text> icon </Text>
             </TouchableOpacity>
           </View>
         </View>

@@ -2,29 +2,27 @@ import { BORDER_RADIUS, COLORS, FONT_SIZE, FONT_WEIGHTS, SPACING } from "../../c
 
 export const styles = {
   container: {
-    flex: 2,
+    flex: 1,
     padding: 50,
-    justifyContent:'space-between'
+    justifyContent:'space-between',
+    
+ },
+
+ container__title: {
+  alignItems: "center",
+  justifyContent: "center",
+  marginTop: 50,
+
  },
 
  container__input:{
-  paddingHorizontal:5,
+  flex:2,
   marginTop: 5,
   height: 40,
   fontSize:FONT_SIZE.md,
+  justifyContent: "center"
   
 },
-
-
- 
-
-  formContainer:{
-    flex:2,
-    paddingTop:20,
-    paddingHorizontal: 20,
-    marginHorzontal: 20,
-    justifyContent: "center"
-  },
 
 title: {
   textAlign: 'center',
@@ -34,26 +32,12 @@ title: {
   alignItems: "center",
   },
 
-  input:{
-    marginBottom: SPACING.sm,
-    paddingHorizontal: SPACING.md,
-    height: 50,
-    borderWidht:1,
-    borderRadius: BORDER_RADIUS.sm,
-    borderColor:COLORS.gray3,
-    backgroundColor: COLORS.gray4,
-    
-    
-  },
 
-  inputText:{
-    color: COLORS.gray3,
-    fontSize: FONT_SIZE.lg
-  },
+
 
   buttonSignUp:{
 
-    marginTop: SPACING.md
+    marginTop:'auto'
   },
 
   containerLogo: {
