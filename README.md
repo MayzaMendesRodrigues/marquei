@@ -23,6 +23,14 @@ This application allows clients to book appointments for aesthetic services, cho
 - **Expo:** application test
 - **API:** https://github.com/MayzaMendesRodrigues/marqueiAPI
 
+## Installation and Configuration
+
+Prerequisites:
+
+- Node.js installed
+
+- Package manager (npm or yarn)
+
 ## Project Structure
 
 - **components/**: Reusable components.
@@ -32,6 +40,22 @@ This application allows clients to book appointments for aesthetic services, cho
 
 ## How to Execute
 
-1. Install dependencies:
-   ```bash
-   npm install
+- Clone the API repository
+
+The application depends on an API to function. Clone and configure the API repository before starting the project:
+
+```bash
+ # Clone the API repository
+git clone  https://github.com/MayzaMendesRodrigues/marqueiAPI
+
+# Install dependencies
+npm install # or yarn install
+
+# Start the server
+dev: npm run dev # or yarn dev
+```
+
+- Clone the application repository
+
+After configuring the API, clone the application repository:
+
