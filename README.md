@@ -59,3 +59,14 @@ dev: npm run dev # or yarn dev
 
 After configuring the API, clone the application repository:
 
+```bash
+ # Clone the API repository
+git clone  https://github.com/MayzaMendesRodrigues/marquei
+
+# Install dependencies
+npm install # or yarn install
+
+# Start the server
+dev: npm run dev # or yarn dev
+```
+
