@@ -23,6 +23,8 @@ This application allows clients to book appointments for aesthetic services, cho
 - **Expo:** application test
 - **API:** https://github.com/MayzaMendesRodrigues/marqueiAPI
 
+## Flowchart
+ - **APP flow:** https://miro.com/app/board/uXjVLgY4gmQ=/
 ## Installation and Configuration
 
 Prerequisites:
