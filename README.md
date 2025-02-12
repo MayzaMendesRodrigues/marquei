@@ -70,3 +70,7 @@ npm install # or yarn install
 dev: npm run dev # or yarn dev
 ```
 
+## Run on device
+- If you are testing on your cell phone, install the Expo Go app (available for Android and iOS) and scan the QR Code that appears on the terminal.
+- If running on the emulator, make sure Android Studio or Xcode (for iOS) is configured correctly.
+
